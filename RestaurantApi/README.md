@@ -9,7 +9,6 @@ Dans cette partie, vous devez être capable d’expliquer les choix effectués, 
 
 
 ### Schéma de base de données
-(images/bd/restaurant-bd "Base de données")
 ![Logo](images/bd/restaurant-bd.jpeg "Base de données")
 Pour la base de données, j'ai choisi une architecture simple avec trois tables principales : Restaurants, Plats et Ingrédients. Les restaurants ont une relation
 de 1 à plusieurs avec les plats, et les plats ont une relation de plusieurs à plusieurs avec les ingrédients. Cela permet de modéliser les données de manière
